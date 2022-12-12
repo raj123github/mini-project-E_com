@@ -14,13 +14,15 @@ public class class3_mainClass extends PriceDetails {
 	   
 	   public static void main(String[] args) {
 		   PriceDetails pd=new PriceDetails();
-		     pd.getProductDetails();
-		     pd.getProductInformation();
-		     System.out.println(pd.productName);
+		   pd.getPrice();
+		    /* pd.getProductDetails();
+		     pd.getProductInformation();*/
+		     /*System.out.println(pd.productName);
 		     System.out.println(pd.actualPrice*qty);
-	}
+	}*/
 
 	}
+}
 
 
 

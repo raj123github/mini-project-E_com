@@ -13,7 +13,7 @@ public class RetriveProduct {
 
 				Class.forName("com.mysql.cj.jdbc.Driver");
 
-				Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/project","root","Root");
+				Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/project","root","root");
 
 				//select query PreparedStatement
 				PreparedStatement ps=con.prepareStatement("select * from furniture");

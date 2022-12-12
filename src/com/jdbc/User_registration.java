@@ -15,7 +15,7 @@ public class User_registration {
 		try {
 			ConnectionSample connectionTest=new ConnectionSample();
 			 con=connectionTest.getConnectionDetails();
-		prs=con.prepareStatement("insert into register(firstName, lastName, address, mailid, mobileNumber)values(?,?,?,?,?)");
+		prs=con.prepareStatement("insert into registrationtab(firstName, lastName, address, mailid, mobileNumber)values(?,?,?,?,?)");
 		prs.setString(1,firstName);
 		prs.setString(2,lastName);
 		prs.setString(3,address);
